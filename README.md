@@ -28,4 +28,6 @@ Living in this divine space is living the best life and doing the greatest servi
         - [1.1.18 Meditation – feel the Love overflowing in you](1.1.flow-in-love/1.1.18.meditation-feel-the-love-overflowing-in-you.md)
     - 1.2. There is nothing to Worry
         -  [1.2.1 What is Worry?](1.2.there-is-nothing-to-worry/1.2.1.what-is-worry.md)
+        -  [1.2.2 How  does Worry take root?](1.2.there-is-nothing-to-worry/1.2.2.how-does-worry-take-root.md)
+        -  [1.2.3 See what is as it IS - and move on](1.2.there-is-nothing-to-worry/1.2.3.see-what-is-as-it-is-and-move-on.md)
 
