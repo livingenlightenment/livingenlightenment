@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Living Enlightenment, Unabridged, 7th edition</title>
+    <title>Living Enlightenment, Unabridged, 7th Edition</title>
     <style>
       body {
         font-family: Georgia, serif;
@@ -12,27 +12,34 @@
       }
 
       .contents {
+        padding-inline-start: 0;
         list-style-type: none;
       }
 
       .preface,
       .introduction {
-        margin-left: 1em;
+        padding-inline-start: 28px;
       }
 
-      .category {
+      .category-title {
         font-size: 1.2em;
         font-weight: bold;
       }
 
       .subcategory {
-        font-weight: bold;
-        margin-left: 2em;
         list-style-type: square;
       }
 
+      .subcategory-title {
+        font-weight: bold;
+      }
+
+      .chapters {
+        padding-inline-start: 20px;
+      }
+
       .chapter {
-        margin-left: 3em;
+        list-style-type: none;
       }
 
       .p-story {
@@ -86,72 +93,91 @@
     <ul class="contents">
       <li class="preface"><a href="#preface">Preface</a></li>
       <li class="introduction"><a href="#introduction">Introduction</a></li>
-      <li class="category">I. YOU ARE YOUR EMOTIONS</li>
-      <li class="subcategory"><a href="#flow-in-love">Flow in Love</a></li>
-      <li class="chapter"><a href="#what-is-love">What is Love?</a></li>
-      <li class="chapter">
-        <a href="#love-cannot-be-created">Love cannot be created</a>
-      </li>
-      <li class="chapter">
-        <a href="#love-heals-five-types-of-restlessness"
-          >Love heals five types of restlessness</a
-        >
-      </li>
-      <li class="chapter">
-        <a href="#love-brings-great-courage">Love brings great courage</a>
-      </li>
-      <li class="chapter">
-        <a href="#be-open-not-philosophizing">Be open - not philosophizing</a>
-      </li>
-      <li class="chapter">
-        <a href="#ego-disconnects-love-connects"
-          >Ego disconnects - Love connects</a
-        >
-      </li>
-      <li class="chapter">
-        <a href="#be-a-lover-every-moment">Be a lover every moment</a>
-      </li>
-      <li class="chapter">
-        <a href="#love-yourself-first">Love yourself first</a>
-      </li>
-      <li class="chapter">
-        <a href="#love-existence-and-feel-it-loving-you"
-          >Love Existence and feel It loving you</a
-        >
-      </li>
-      <li class="chapter">
-        <a href="#love-is-different-from-respect"
-          >Love is different from respect</a
-        >
-      </li>
-      <li class="chapter">
-        <a href="#love-is-the-root-of-all-religion"
-          >Love is the root of all religion</a
-        >
-      </li>
-      <li class="chapter">
-        <a href="#three-types-of-love-and-their-integration"
-          >Three types of Love and their integration</a
-        >
-      </li>
-      <li class="chapter">
-        <a href="enter-into-causeless-love">Enter into causeless Love</a>
-      </li>
-      <li class="chapter">
-        <a href="#love-hatred-and-attention-need"
-          >Love, hatred and attention-need</a
-        >
-      </li>
-      <li class="chapter">
-        <a href="#the-unity-of-love">The unity of Love</a>
-      </li>
-      <li class="chapter">
-        <a href="#love-and-liberate-dont-possess"
-          >Love and liberate, don't possess</a
-        >
-      </li>
-      <li class="chapter">
-        <a href="#love-in-relationships">Love in relationships</a>
+      <li class="category">
+        <span class="category-title">I. YOU ARE YOUR EMOTIONS</span>
+        <ul>
+          <li class="subcategory">
+            <a class="subcategory-title" href="#flow-in-love">Flow in Love</a>
+            <ul class="chapters">
+              <li class="chapter"><a href="#what-is-love">What is Love?</a></li>
+              <li class="chapter">
+                <a href="#love-cannot-be-created">Love cannot be created</a>
+              </li>
+              <li class="chapter">
+                <a href="#love-heals-five-types-of-restlessness"
+                  >Love heals five types of restlessness</a
+                >
+              </li>
+              <li class="chapter">
+                <a href="#love-brings-great-courage"
+                  >Love brings great courage</a
+                >
+              </li>
+              <li class="chapter">
+                <a href="#be-open-not-philosophizing"
+                  >Be open - not philosophizing</a
+                >
+              </li>
+              <li class="chapter">
+                <a href="#ego-disconnects-love-connects"
+                  >Ego disconnects - Love connects</a
+                >
+              </li>
+              <li class="chapter">
+                <a href="#be-a-lover-every-moment">Be a lover every moment</a>
+              </li>
+              <li class="chapter">
+                <a href="#love-yourself-first">Love yourself first</a>
+              </li>
+              <li class="chapter">
+                <a href="#love-existence-and-feel-it-loving-you"
+                  >Love Existence and feel It loving you</a
+                >
+              </li>
+              <li class="chapter">
+                <a href="#love-is-different-from-respect"
+                  >Love is different from respect</a
+                >
+              </li>
+              <li class="chapter">
+                <a href="#love-is-the-root-of-all-religion"
+                  >Love is the root of all religion</a
+                >
+              </li>
+              <li class="chapter">
+                <a href="#three-types-of-love-and-their-integration"
+                  >Three types of Love and their integration</a
+                >
+              </li>
+              <li class="chapter">
+                <a href="enter-into-causeless-love"
+                  >Enter into causeless Love</a
+                >
+              </li>
+              <li class="chapter">
+                <a href="#love-hatred-and-attention-need"
+                  >Love, hatred and attention-need</a
+                >
+              </li>
+              <li class="chapter">
+                <a href="#the-unity-of-love">The unity of Love</a>
+              </li>
+              <li class="chapter">
+                <a href="#love-and-liberate-dont-possess"
+                  >Love and liberate, don't possess</a
+                >
+              </li>
+              <li class="chapter">
+                <a href="#love-in-relationships">Love in relationships</a>
+              </li>
+              <li class="chapter">
+                <a href="#meditation-feel-the-love-overflowing-in-you"
+                  >Meditation - feel the Love overflowing in you</a
+                >
+              </li>
+            </ul>
+          </li>
+        </ul>
       </li>
     </ul>
 
@@ -1827,23 +1853,30 @@
           texts of the Vedas. Literally means 'sitting with the master'. There
           are eleven main <em>Upanishads</em> that have been commented on by
           enlightened master Adi Shankara.
+          <a href="#the-unity-of-love-ref1">↩</a>
         </li>
         <li id="the-unity-of-love-2">
           Krishna - Enlightened master from India who delivered the Truths of
           the Bhagavad Gita.
+          <a href="#the-unity-of-love-ref2">↩</a>
         </li>
         <li id="the-unity-of-love-3">
           <em>Ras Leela</em> - The spiritual interaction of enlightened master
           Krishna with the <em>gopis</em> or cowherd women devotees.
+          <a href="#the-unity-of-love-ref3">↩</a>
         </li>
         <li id="the-unity-of-love-4">
           Radha - Chief among the <em>gopis</em> or cowherd women devotees of
           enlightened master Krishna.
+          <a href="#the-unity-of-love-ref4">↩</a>
         </li>
         <li id="the-unity-of-love-5">
           Jalaluddin Rumi - 13th century Persian Sufi poet.
+          <a href="#the-unity-of-love-ref5">↩</a>
         </li>
-        <li id="the-unity-of-love-6">Sufism - Mystical dimension of Islam.</li>
+        <li id="the-unity-of-love-6">Sufism - Mystical dimension of Islam.
+          <a href="#the-unity-of-love-ref6">↩</a>
+        </li>
       </ol>
     </section>
 
@@ -2044,10 +2077,12 @@
           Shiva Sutras - A collection of teachings of enlightened master Shiva
           in epigram form as techniques. Includes Vignana Bhairava Tantra, Guru
           Gita, Tiru Mandiram, etc.
+          <a href="#love-and-liberate-dont-possess-ref1">↩</a>
         </li>
         <li id="love-and-liberate-dont-possess-2">
           Shiva - enlightened Master from India who delivered the universal
           Truths in the form of scriptures like Shiva Sutras.
+          <a href="#love-and-liberate-dont-possess-ref2">↩</a>
         </li>
       </ol>
     </section>
@@ -2201,6 +2236,7 @@
       <ol>
         <li id="love-in-relationships-1">
           <em>Ashramites</em> - Residents of ashram.
+          <a href="#love-in-relationships-ref1">↩</a>
         </li>
       </ol>
     </section>
