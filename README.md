@@ -6,3 +6,9 @@ Living enlightenment is actualizing the limitless potential and experiencing the
 Living in this divine space is living the best life and doing the greatest service to society.
 
 - [english](english/README.md)
+
+In HTML/ebooks, use the correct entities:
+- `&rsquo;` → ’ (apostrophe or closing single quote)
+- `&lsquo;` → ‘ (opening single quote)
+- `&rdquo;` → ” (closing double quote)
+- `&ldquo;` → “ (opening double quote)
