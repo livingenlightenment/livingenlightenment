@@ -7,6 +7,15 @@ Living in this divine space is living the best life and doing the greatest servi
 
 - [english](english/README.md)
 
+## Formatting
+American English (U.S.):
+ - Double quotes for dialogue and most quotations:
+He said, “I’m ready.”
+- Single quotes only for quotes inside quotes:
+“Did she really say ‘I’m leaving’?” he asked.
+ - Periods and commas go inside the quotes.
+ - Colons and semicolons go outside.
+
 In HTML/ebooks, use the correct entities:
 - `&rsquo;` → ’ (apostrophe or closing single quote)
 - `&lsquo;` → ‘ (opening single quote)
