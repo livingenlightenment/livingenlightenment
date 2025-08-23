@@ -21,3 +21,12 @@ In HTML/ebooks, use the correct entities:
 - `&lsquo;` → ‘ (opening single quote)
 - `&rdquo;` → ” (closing double quote)
 - `&ldquo;` → “ (opening double quote)
+
+## Convert HTML to ebook:
+- Open Calibre
+- Click Add books
+- Select the HTML book
+- Click Convert books
+- Click Structure Detection
+- Change Chapter mark from pagebreak to none
+
